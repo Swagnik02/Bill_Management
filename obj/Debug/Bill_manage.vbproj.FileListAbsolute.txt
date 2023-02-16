@@ -11,3 +11,17 @@ D:\CODING\PROJECT\Bill_Management\Bill_manage\obj\Debug\Bill_manage.vbproj.CoreC
 D:\CODING\PROJECT\Bill_Management\Bill_manage\obj\Debug\Bill_manage.exe
 D:\CODING\PROJECT\Bill_Management\Bill_manage\obj\Debug\Bill_manage.xml
 D:\CODING\PROJECT\Bill_Management\Bill_manage\obj\Debug\Bill_manage.pdb
+D:\CODING\PROJECT\Bill_Management\bin\Debug\Bill_manage.exe.config
+D:\CODING\PROJECT\Bill_Management\bin\Debug\Bill_manage.exe
+D:\CODING\PROJECT\Bill_Management\bin\Debug\Bill_manage.pdb
+D:\CODING\PROJECT\Bill_Management\bin\Debug\Bill_manage.xml
+D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.vbproj.AssemblyReference.cache
+D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.vbproj.SuggestedBindingRedirects.cache
+D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.Form1.resources
+D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.Resources.resources
+D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.vbproj.GenerateResource.cache
+D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.vbproj.CoreCompileInputs.cache
+D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.exe
+D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.xml
+D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.pdb
+D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.LoadingScreen.resources

@@ -22,6 +22,21 @@ Bill_manage
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Bill_manage.My.Resources.Resources.download_removebg_preview">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.download_removebg_preview___Edited">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.dp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Bill_manage.My.Resources.Resources.key">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -33,6 +48,11 @@ Bill_manage
 </summary>
 </member>
 <member name="P:Bill_manage.My.Resources.Resources.login1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.MinFlat_Dark_Material_Design_Wallpaper_4K_by_DaKoder_on">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
