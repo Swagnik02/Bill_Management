@@ -25,3 +25,4 @@ D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.exe
 D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.xml
 D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.pdb
 D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.LoadingScreen.resources
+D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.HomePage.resources
