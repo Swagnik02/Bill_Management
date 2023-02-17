@@ -12,35 +12,16 @@ Public Class HomePage
         ' This call is required by the designer.'
         InitializeComponent()
         ' Add any initialization after the InitializeComponent() call.'
-        leftBorderBtn = New Panel()
-        leftBorderBtn.Size = New Size(7, 60)
-        PanelMenu.Controls.Add(leftBorderBtn)
+
         'Form'
-        Me.Text = String.Empty
-        Me.ControlBox = False
-        Me.DoubleBuffered = True
-        Me.MaximizedBounds = Screen.PrimaryScreen.WorkingArea
+
     End Sub
     'Methods'
     Private Sub ActivateButton(senderBtn As Object, customColor As Color)
         If senderBtn IsNot Nothing Then
             DisableButton()
-            'Button'
-            currentBtn = CType(senderBtn, IconButton)
-            currentBtn.BackColor = Color.FromArgb(37, 36, 81)
-            currentBtn.ForeColor = customColor
-            currentBtn.IconColor = customColor
-            currentBtn.TextAlign = ContentAlignment.MiddleCenter
-            currentBtn.ImageAlign = ContentAlignment.MiddleRight
-            currentBtn.TextImageRelation = TextImageRelation.TextBeforeImage
-            'Left Border'
-            leftBorderBtn.BackColor = customColor
-            leftBorderBtn.Location = New Point(0, currentBtn.Location.Y)
-            leftBorderBtn.Visible = True
-            leftBorderBtn.BringToFront()
             'current Form icon'
-            IconCurrentForm.IconChar = currentBtn.IconChar
-            IconCurrentForm.IconColor = customColor
+
         End If
     End Sub
     Private Sub DisableButton()
