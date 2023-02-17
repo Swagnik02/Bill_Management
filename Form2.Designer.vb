@@ -45,9 +45,9 @@ Partial Class LoadingScreen
         '
         Me.ProgressBar.Cursor = System.Windows.Forms.Cursors.Default
         Me.ProgressBar.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(61, Byte), Integer))
-        Me.ProgressBar.Location = New System.Drawing.Point(1, 442)
+        Me.ProgressBar.Location = New System.Drawing.Point(-3, 445)
         Me.ProgressBar.Name = "ProgressBar"
-        Me.ProgressBar.Size = New System.Drawing.Size(803, 23)
+        Me.ProgressBar.Size = New System.Drawing.Size(810, 13)
         Me.ProgressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous
         Me.ProgressBar.TabIndex = 1
         '

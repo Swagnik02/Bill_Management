@@ -48,16 +48,26 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=6.2.1.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>packages\FontAwesome.Sharp.6.2.1\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp.Material, Version=6.2.1.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>packages\FontAwesome.Sharp.Material.6.2.1\lib\net472\FontAwesome.Sharp.Material.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Net.Http" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -78,6 +88,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form10.Designer.vb">
+      <DependentUpon>Form10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form2.Designer.vb">
       <DependentUpon>Form2.vb</DependentUpon>
     </Compile>
@@ -88,6 +104,42 @@
       <DependentUpon>Form3.vb</DependentUpon>
     </Compile>
     <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.vb">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.vb">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.vb">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.vb">
+      <DependentUpon>Form8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.vb">
+      <DependentUpon>Form9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -106,6 +158,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="RGBColors.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -116,6 +169,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -137,6 +193,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
     <None Include="Resources\login.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -171,6 +228,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Untitled design.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MinFlat Dark Material Design Wallpaper 4K by DaKoder on - Edited.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MinFlat Dark Material Design Wallpaper 4K by DaKoder on - Edited %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design %282%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

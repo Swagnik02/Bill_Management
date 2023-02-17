@@ -23,4 +23,5 @@ Public Class LoadingScreen
             Login.Show()
         End If
     End Sub
+
 End Class
