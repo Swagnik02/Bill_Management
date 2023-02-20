@@ -31,9 +31,6 @@ Partial Class HomePage
         Me.IconButton2 = New FontAwesome.Sharp.IconButton()
         Me.IconButton3 = New FontAwesome.Sharp.IconButton()
         Me.IconButton4 = New FontAwesome.Sharp.IconButton()
-        Me.IconButton5 = New FontAwesome.Sharp.IconButton()
-        Me.IconButton6 = New FontAwesome.Sharp.IconButton()
-        Me.IconButton7 = New FontAwesome.Sharp.IconButton()
         Me.imgHome = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -76,9 +73,6 @@ Partial Class HomePage
         Me.PanelMenu.Controls.Add(Me.IconButton2)
         Me.PanelMenu.Controls.Add(Me.IconButton3)
         Me.PanelMenu.Controls.Add(Me.IconButton4)
-        Me.PanelMenu.Controls.Add(Me.IconButton5)
-        Me.PanelMenu.Controls.Add(Me.IconButton6)
-        Me.PanelMenu.Controls.Add(Me.IconButton7)
         Me.PanelMenu.Dock = System.Windows.Forms.DockStyle.Left
         Me.PanelMenu.Location = New System.Drawing.Point(0, 0)
         Me.PanelMenu.Name = "PanelMenu"
@@ -108,7 +102,7 @@ Partial Class HomePage
         Me.IconButton1.Name = "IconButton1"
         Me.IconButton1.Size = New System.Drawing.Size(300, 50)
         Me.IconButton1.TabIndex = 2
-        Me.IconButton1.Text = "Customer Management"
+        Me.IconButton1.Text = "Bill Generate"
         Me.IconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.IconButton1.UseVisualStyleBackColor = True
         '
@@ -125,7 +119,7 @@ Partial Class HomePage
         Me.IconButton2.Name = "IconButton2"
         Me.IconButton2.Size = New System.Drawing.Size(300, 50)
         Me.IconButton2.TabIndex = 3
-        Me.IconButton2.Text = "Connection Management"
+        Me.IconButton2.Text = "Payment"
         Me.IconButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.IconButton2.UseVisualStyleBackColor = True
         '
@@ -142,7 +136,7 @@ Partial Class HomePage
         Me.IconButton3.Name = "IconButton3"
         Me.IconButton3.Size = New System.Drawing.Size(300, 50)
         Me.IconButton3.TabIndex = 4
-        Me.IconButton3.Text = "Users Management"
+        Me.IconButton3.Text = "User Details"
         Me.IconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.IconButton3.UseVisualStyleBackColor = True
         '
@@ -159,60 +153,9 @@ Partial Class HomePage
         Me.IconButton4.Name = "IconButton4"
         Me.IconButton4.Size = New System.Drawing.Size(300, 50)
         Me.IconButton4.TabIndex = 5
-        Me.IconButton4.Text = "All Payments"
+        Me.IconButton4.Text = "Admin"
         Me.IconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.IconButton4.UseVisualStyleBackColor = True
-        '
-        'IconButton5
-        '
-        Me.IconButton5.FlatAppearance.BorderSize = 0
-        Me.IconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.IconButton5.Font = New System.Drawing.Font("Segoe UI Semibold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.IconButton5.ForeColor = System.Drawing.Color.LightGray
-        Me.IconButton5.IconChar = FontAwesome.Sharp.IconChar.None
-        Me.IconButton5.IconColor = System.Drawing.Color.Black
-        Me.IconButton5.IconFont = FontAwesome.Sharp.IconFont.[Auto]
-        Me.IconButton5.Location = New System.Drawing.Point(3, 282)
-        Me.IconButton5.Name = "IconButton5"
-        Me.IconButton5.Size = New System.Drawing.Size(300, 50)
-        Me.IconButton5.TabIndex = 6
-        Me.IconButton5.Text = "Generate Bill"
-        Me.IconButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton5.UseVisualStyleBackColor = True
-        '
-        'IconButton6
-        '
-        Me.IconButton6.FlatAppearance.BorderSize = 0
-        Me.IconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.IconButton6.Font = New System.Drawing.Font("Segoe UI Semibold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.IconButton6.ForeColor = System.Drawing.Color.LightGray
-        Me.IconButton6.IconChar = FontAwesome.Sharp.IconChar.None
-        Me.IconButton6.IconColor = System.Drawing.Color.Black
-        Me.IconButton6.IconFont = FontAwesome.Sharp.IconFont.[Auto]
-        Me.IconButton6.Location = New System.Drawing.Point(3, 338)
-        Me.IconButton6.Name = "IconButton6"
-        Me.IconButton6.Size = New System.Drawing.Size(300, 50)
-        Me.IconButton6.TabIndex = 7
-        Me.IconButton6.Text = "Master Entry"
-        Me.IconButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton6.UseVisualStyleBackColor = True
-        '
-        'IconButton7
-        '
-        Me.IconButton7.FlatAppearance.BorderSize = 0
-        Me.IconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.IconButton7.Font = New System.Drawing.Font("Segoe UI Semibold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.IconButton7.ForeColor = System.Drawing.Color.LightGray
-        Me.IconButton7.IconChar = FontAwesome.Sharp.IconChar.None
-        Me.IconButton7.IconColor = System.Drawing.Color.Black
-        Me.IconButton7.IconFont = FontAwesome.Sharp.IconFont.[Auto]
-        Me.IconButton7.Location = New System.Drawing.Point(3, 394)
-        Me.IconButton7.Name = "IconButton7"
-        Me.IconButton7.Size = New System.Drawing.Size(300, 50)
-        Me.IconButton7.TabIndex = 8
-        Me.IconButton7.Text = "Reports"
-        Me.IconButton7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton7.UseVisualStyleBackColor = True
         '
         'imgHome
         '
@@ -353,9 +296,6 @@ Partial Class HomePage
     Friend WithEvents IconButton2 As FontAwesome.Sharp.IconButton
     Friend WithEvents IconButton3 As FontAwesome.Sharp.IconButton
     Friend WithEvents IconButton4 As FontAwesome.Sharp.IconButton
-    Friend WithEvents IconButton5 As FontAwesome.Sharp.IconButton
-    Friend WithEvents IconButton6 As FontAwesome.Sharp.IconButton
-    Friend WithEvents IconButton7 As FontAwesome.Sharp.IconButton
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Button1 As Button
     Friend WithEvents Label2 As Label

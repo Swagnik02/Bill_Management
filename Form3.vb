@@ -82,11 +82,11 @@ Public Class HomePage
         ActivateButton(sender, RGBColors.color4)
         OpenChildForm(New Form7)
     End Sub
-    Private Sub IconButton5_Click(sender As Object, e As EventArgs) Handles IconButton5.Click
+    Private Sub IconButton5_Click(sender As Object, e As EventArgs)
         ActivateButton(sender, RGBColors.color5)
         OpenChildForm(New Form8)
     End Sub
-    Private Sub IconButton6_Click(sender As Object, e As EventArgs) Handles IconButton6.Click
+    Private Sub IconButton6_Click(sender As Object, e As EventArgs)
         ActivateButton(sender, RGBColors.color6)
         OpenChildForm(New Form9)
     End Sub
