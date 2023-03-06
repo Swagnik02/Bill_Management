@@ -31,18 +31,14 @@ Partial Class HomePage
         Me.IconButton2 = New FontAwesome.Sharp.IconButton()
         Me.IconButton3 = New FontAwesome.Sharp.IconButton()
         Me.IconButton4 = New FontAwesome.Sharp.IconButton()
-        Me.imgHome = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.IconCurrentForm = New FontAwesome.Sharp.IconButton()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.PanelDesktop = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.PanelTitleBar = New System.Windows.Forms.Panel()
-        Me.lblFormTitle = New System.Windows.Forms.Label()
         Me.PanelMenu.SuspendLayout()
         Me.Panel1.SuspendLayout()
-        CType(Me.imgHome, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
         Me.PanelTitleBar.SuspendLayout()
         Me.SuspendLayout()
@@ -76,7 +72,7 @@ Partial Class HomePage
         Me.PanelMenu.Dock = System.Windows.Forms.DockStyle.Left
         Me.PanelMenu.Location = New System.Drawing.Point(0, 0)
         Me.PanelMenu.Name = "PanelMenu"
-        Me.PanelMenu.Size = New System.Drawing.Size(300, 500)
+        Me.PanelMenu.Size = New System.Drawing.Size(300, 582)
         Me.PanelMenu.TabIndex = 5
         '
         'Panel1
@@ -157,15 +153,6 @@ Partial Class HomePage
         Me.IconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.IconButton4.UseVisualStyleBackColor = True
         '
-        'imgHome
-        '
-        Me.imgHome.BackColor = System.Drawing.Color.IndianRed
-        Me.imgHome.Location = New System.Drawing.Point(186, 23)
-        Me.imgHome.Name = "imgHome"
-        Me.imgHome.Size = New System.Drawing.Size(65, 30)
-        Me.imgHome.TabIndex = 2
-        Me.imgHome.TabStop = False
-        '
         'Button1
         '
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
@@ -176,7 +163,7 @@ Partial Class HomePage
         Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(63, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(63, Byte), Integer))
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(651, 4)
+        Me.Button1.Location = New System.Drawing.Point(654, 4)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(40, 40)
         Me.Button1.TabIndex = 0
@@ -196,18 +183,6 @@ Partial Class HomePage
         Me.Label2.Text = "Dt"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'IconCurrentForm
-        '
-        Me.IconCurrentForm.IconChar = FontAwesome.Sharp.IconChar.None
-        Me.IconCurrentForm.IconColor = System.Drawing.Color.Black
-        Me.IconCurrentForm.IconFont = FontAwesome.Sharp.IconFont.[Auto]
-        Me.IconCurrentForm.Location = New System.Drawing.Point(108, 13)
-        Me.IconCurrentForm.Name = "IconCurrentForm"
-        Me.IconCurrentForm.Size = New System.Drawing.Size(72, 44)
-        Me.IconCurrentForm.TabIndex = 0
-        Me.IconCurrentForm.Text = "IconCurrentForm"
-        Me.IconCurrentForm.UseVisualStyleBackColor = True
-        '
         'Label3
         '
         Me.Label3.BackColor = System.Drawing.SystemColors.ScrollBar
@@ -225,9 +200,9 @@ Partial Class HomePage
         'PanelDesktop
         '
         Me.PanelDesktop.BackColor = System.Drawing.Color.Transparent
-        Me.PanelDesktop.Location = New System.Drawing.Point(300, 84)
+        Me.PanelDesktop.Location = New System.Drawing.Point(300, 82)
         Me.PanelDesktop.Name = "PanelDesktop"
-        Me.PanelDesktop.Size = New System.Drawing.Size(694, 416)
+        Me.PanelDesktop.Size = New System.Drawing.Size(697, 498)
         Me.PanelDesktop.TabIndex = 7
         '
         'Panel3
@@ -235,7 +210,7 @@ Partial Class HomePage
         Me.Panel3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel3.Controls.Add(Me.Label2)
         Me.Panel3.Controls.Add(Me.Label3)
-        Me.Panel3.Location = New System.Drawing.Point(6, 0)
+        Me.Panel3.Location = New System.Drawing.Point(0, 1)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(76, 81)
         Me.Panel3.TabIndex = 4
@@ -244,24 +219,12 @@ Partial Class HomePage
         '
         Me.PanelTitleBar.BackColor = System.Drawing.SystemColors.WindowFrame
         Me.PanelTitleBar.Controls.Add(Me.Button1)
-        Me.PanelTitleBar.Controls.Add(Me.imgHome)
-        Me.PanelTitleBar.Controls.Add(Me.lblFormTitle)
-        Me.PanelTitleBar.Controls.Add(Me.IconCurrentForm)
         Me.PanelTitleBar.Controls.Add(Me.Panel3)
         Me.PanelTitleBar.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelTitleBar.Location = New System.Drawing.Point(300, 0)
         Me.PanelTitleBar.Name = "PanelTitleBar"
-        Me.PanelTitleBar.Size = New System.Drawing.Size(694, 82)
+        Me.PanelTitleBar.Size = New System.Drawing.Size(697, 82)
         Me.PanelTitleBar.TabIndex = 8
-        '
-        'lblFormTitle
-        '
-        Me.lblFormTitle.AutoSize = True
-        Me.lblFormTitle.Location = New System.Drawing.Point(481, 34)
-        Me.lblFormTitle.Name = "lblFormTitle"
-        Me.lblFormTitle.Size = New System.Drawing.Size(47, 16)
-        Me.lblFormTitle.TabIndex = 5
-        Me.lblFormTitle.Text = "HOME"
         '
         'HomePage
         '
@@ -269,7 +232,7 @@ Partial Class HomePage
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.BackgroundImage = Global.Bill_manage.My.Resources.Resources.MinFlat_Dark_Material_Design_Wallpaper_4K_by_DaKoder_on___Edited__1_
-        Me.ClientSize = New System.Drawing.Size(994, 500)
+        Me.ClientSize = New System.Drawing.Size(997, 582)
         Me.ControlBox = False
         Me.Controls.Add(Me.PanelTitleBar)
         Me.Controls.Add(Me.PanelDesktop)
@@ -281,11 +244,9 @@ Partial Class HomePage
         Me.Text = "HOMEPAGE"
         Me.PanelMenu.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
-        CType(Me.imgHome, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
         Me.PanelTitleBar.ResumeLayout(False)
-        Me.PanelTitleBar.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -299,11 +260,8 @@ Partial Class HomePage
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Button1 As Button
     Friend WithEvents Label2 As Label
-    Friend WithEvents IconCurrentForm As FontAwesome.Sharp.IconButton
     Friend WithEvents Label3 As Label
     Friend WithEvents Panel3 As Panel
     Friend WithEvents PanelTitleBar As Panel
-    Friend WithEvents lblFormTitle As Label
-    Friend WithEvents imgHome As PictureBox
     Friend WithEvents PanelDesktop As Panel
 End Class

@@ -17,14 +17,13 @@ Public Class HomePage
 
     End Sub
     'Methods'
-    Private Sub ActivateButton(senderBtn As Object, customColor As Color)
+    Public Sub ActivateButton(senderBtn As Object, customColor As Color)
         If senderBtn IsNot Nothing Then
             DisableButton()
             'current Form icon'
-
         End If
     End Sub
-    Private Sub DisableButton()
+    Public Sub DisableButton()
         If currentBtn IsNot Nothing Then
             currentBtn.BackColor = Color.FromArgb(31, 30, 68)
             currentBtn.ForeColor = Color.Gainsboro
@@ -34,7 +33,7 @@ Public Class HomePage
             currentBtn.TextImageRelation = TextImageRelation.ImageBeforeText
         End If
     End Sub
-    Private Sub OpenChildForm(childForm As Form)
+    Public Sub OpenChildForm(childForm As Form)
         'Open only form'
         If currentChildForm IsNot Nothing Then
             currentChildForm.Close()
@@ -48,23 +47,18 @@ Public Class HomePage
         PanelDesktop.Tag = childForm
         childForm.BringToFront()
         childForm.Show()
-        lblFormTitle.Text = childForm.Text
+        'lblFormTitle.Text = childForm.Text
     End Sub
     Private Sub Reset()
-        DisableButton()
-        leftBorderBtn.Visible = False
-        IconCurrentForm.IconChar = IconChar.Home
-        IconCurrentForm.IconColor = Color.MediumPurple
-        lblFormTitle.Text = "Home"
+        '        DisableButton()
+        '        leftBorderBtn.Visible = False
+        '        IconCurrentForm.IconChar = IconChar.Home
+        '        IconCurrentForm.IconColor = Color.MediumPurple
+        '        lblFormTitle.Text = "Home"
     End Sub
     'Events'
     'Reset'
-    Private Sub imgHome_Click(sender As Object, e As EventArgs) Handles imgHome.Click
-        If currentChildForm IsNot Nothing Then
-            currentChildForm.Close()
-        End If
-        Reset()
-    End Sub
+
     'Menu buttons Cliks'
     Private Sub IconButton1_Click(sender As Object, e As EventArgs) Handles IconButton1.Click
         ActivateButton(sender, RGBColors.color1)
@@ -87,8 +81,8 @@ Public Class HomePage
         OpenChildForm(New Form8)
     End Sub
     Private Sub IconButton6_Click(sender As Object, e As EventArgs)
-        ActivateButton(sender, RGBColors.color6)
-        OpenChildForm(New Form9)
+        '       ActivateButton(sender, RGBColors.color6)
+        '        OpenChildForm(New Form9)
     End Sub
     'Drag Form'
     <DllImport("user32.DLL", EntryPoint:="ReleaseCapture")>

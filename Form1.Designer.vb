@@ -112,6 +112,7 @@ Partial Class Login
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(61, Byte), Integer))
         Me.Panel1.Controls.Add(Me.txtUsername)
         Me.Panel1.Controls.Add(Me.PictureBox3)
+        Me.Panel1.ForeColor = System.Drawing.SystemColors.WindowFrame
         Me.Panel1.Location = New System.Drawing.Point(79, 318)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(323, 46)
@@ -195,7 +196,7 @@ Partial Class Login
     Private Sub txtUsername_GotFocus(sender As Object, e As EventArgs) Handles txtUsername.GotFocus
         If txtUsername.Text = "Username" Then
             txtUsername.Text = ""
-            txtUsername.ForeColor = Color.DimGray
+            txtUsername.ForeColor = SystemColors.WindowFrame
         End If
     End Sub
     Private Sub txtUsername_LostFocus(sender As Object, e As EventArgs) Handles txtUsername.LostFocus
@@ -209,7 +210,7 @@ Partial Class Login
         If txtPassword.Text = "Password" Then
             txtPassword.Text = ""
             txtPassword.PasswordChar = "*"
-            txtPassword.ForeColor = Color.DimGray
+            txtPassword.ForeColor = SystemColors.WindowFrame
         End If
     End Sub
 
