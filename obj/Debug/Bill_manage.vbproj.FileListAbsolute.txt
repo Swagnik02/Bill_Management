@@ -33,3 +33,4 @@ D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.Form4.resources
 D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.Form5.resources
 D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.Form6.resources
 D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.Form7.resources
+D:\CODING\PROJECT\Bill_Management\obj\Debug\Bill_manage.Form8.resources

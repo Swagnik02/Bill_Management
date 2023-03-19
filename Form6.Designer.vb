@@ -36,6 +36,7 @@ Partial Class form6
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.MaterialButton1 = New FontAwesome.Sharp.Material.MaterialButton()
         Me.Panel1.SuspendLayout()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
@@ -201,6 +202,22 @@ Partial Class form6
         Me.FlowLayoutPanel1.Size = New System.Drawing.Size(330, 37)
         Me.FlowLayoutPanel1.TabIndex = 9
         '
+        'MaterialButton1
+        '
+        Me.MaterialButton1.BackColor = System.Drawing.Color.SteelBlue
+        Me.MaterialButton1.FlatAppearance.BorderSize = 0
+        Me.MaterialButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.MaterialButton1.Font = New System.Drawing.Font("Consolas", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MaterialButton1.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption
+        Me.MaterialButton1.IconChar = FontAwesome.Sharp.MaterialIcons.None
+        Me.MaterialButton1.IconColor = System.Drawing.Color.Black
+        Me.MaterialButton1.Location = New System.Drawing.Point(136, 382)
+        Me.MaterialButton1.Name = "MaterialButton1"
+        Me.MaterialButton1.Size = New System.Drawing.Size(299, 47)
+        Me.MaterialButton1.TabIndex = 13
+        Me.MaterialButton1.Text = "FETCH DETAILS"
+        Me.MaterialButton1.UseVisualStyleBackColor = False
+        '
         'form6
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -208,8 +225,9 @@ Partial Class form6
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(61, Byte), Integer))
         Me.BackgroundImage = Global.Bill_manage.My.Resources.Resources.form6_bg
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(608, 410)
+        Me.ClientSize = New System.Drawing.Size(608, 446)
         Me.ControlBox = False
+        Me.Controls.Add(Me.MaterialButton1)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.Panel1)
         Me.DoubleBuffered = True
@@ -252,4 +270,5 @@ Partial Class form6
     End Sub
 
     Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
+    Friend WithEvents MaterialButton1 As FontAwesome.Sharp.Material.MaterialButton
 End Class

@@ -24,8 +24,6 @@ Partial Class form5
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.conID = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
@@ -37,6 +35,8 @@ Partial Class form5
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.MaterialButton1 = New FontAwesome.Sharp.Material.MaterialButton()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -56,34 +56,12 @@ Partial Class form5
         'FlowLayoutPanel1
         '
         Me.FlowLayoutPanel1.BackColor = System.Drawing.Color.Transparent
-        Me.FlowLayoutPanel1.Controls.Add(Me.conID)
-        Me.FlowLayoutPanel1.Controls.Add(Me.TextBox1)
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(136, 57)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Label6)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Label7)
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(114, 57)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(236, 34)
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(282, 46)
         Me.FlowLayoutPanel1.TabIndex = 10
-        '
-        'conID
-        '
-        Me.conID.AutoSize = True
-        Me.conID.BackColor = System.Drawing.SystemColors.HotTrack
-        Me.conID.Font = New System.Drawing.Font("Comic Sans MS", 13.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.conID.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.conID.Location = New System.Drawing.Point(3, 0)
-        Me.conID.Name = "conID"
-        Me.conID.Size = New System.Drawing.Size(111, 30)
-        Me.conID.TabIndex = 3
-        Me.conID.Text = "Consumer" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        '
-        'TextBox1
-        '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.InactiveCaption
-        Me.TextBox1.Font = New System.Drawing.Font("Comic Sans MS", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(120, 3)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(92, 33)
-        Me.TextBox1.TabIndex = 4
-        Me.TextBox1.Text = "ID"
         '
         'Label2
         '
@@ -216,6 +194,25 @@ Partial Class form5
         Me.MaterialButton1.Text = "MAKE PAYMENT"
         Me.MaterialButton1.UseVisualStyleBackColor = False
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.SystemColors.HotTrack
+        Me.Label6.Font = New System.Drawing.Font("Comic Sans MS", 13.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(3, 0)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(153, 30)
+        Me.Label6.TabIndex = 12
+        Me.Label6.Text = "Consumer ID:"
+        '
+        'Label7
+        '
+        Me.Label7.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.Label7.Location = New System.Drawing.Point(162, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(95, 30)
+        Me.Label7.TabIndex = 0
+        '
         'form5
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
@@ -227,9 +224,9 @@ Partial Class form5
         Me.ControlBox = False
         Me.Controls.Add(Me.MaterialButton1)
         Me.Controls.Add(Me.Panel2)
-        Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.DoubleBuffered = True
         Me.Font = New System.Drawing.Font("Comic Sans MS", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -249,8 +246,6 @@ Partial Class form5
     End Sub
     Friend WithEvents Label1 As Label
     Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
-    Friend WithEvents conID As Label
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents TextBox3 As TextBox
@@ -262,4 +257,6 @@ Partial Class form5
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents MaterialButton1 As FontAwesome.Sharp.Material.MaterialButton
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
 End Class

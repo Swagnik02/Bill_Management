@@ -42,6 +42,7 @@ Partial Class Form4
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.FlowLayoutPanel2.SuspendLayout()
@@ -53,7 +54,7 @@ Partial Class Form4
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Ink Free", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.Desktop
-        Me.Button1.Location = New System.Drawing.Point(238, 336)
+        Me.Button1.Location = New System.Drawing.Point(310, 338)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(77, 43)
         Me.Button1.TabIndex = 0
@@ -281,6 +282,19 @@ Partial Class Form4
         Me.FlowLayoutPanel2.Size = New System.Drawing.Size(266, 32)
         Me.FlowLayoutPanel2.TabIndex = 10
         '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.Font = New System.Drawing.Font("Ink Free", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.SystemColors.Desktop
+        Me.Button2.Location = New System.Drawing.Point(110, 338)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(183, 43)
+        Me.Button2.TabIndex = 9
+        Me.Button2.Text = "Generate"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
         'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
@@ -291,6 +305,7 @@ Partial Class Form4
         Me.ControlBox = False
         Me.Controls.Add(Me.FlowLayoutPanel2)
         Me.Controls.Add(Me.FlowLayoutPanel1)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Panel1)
         Me.Cursor = System.Windows.Forms.Cursors.Hand
@@ -329,4 +344,5 @@ Partial Class Form4
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
     Friend WithEvents FlowLayoutPanel2 As FlowLayoutPanel
+    Friend WithEvents Button2 As Button
 End Class
