@@ -167,6 +167,9 @@
     <EmbeddedResource Include="Form6.resx">
       <DependentUpon>Form6.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -237,6 +240,138 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Untitled design %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstarct.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mesh.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\23962-ai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ELECTRICITY BILL MANAGEMENT SYSTEM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ELECTRICITY BILL MANAGEMENT SYSTEM %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dp1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dp %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dp %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design %283%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form3 .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form3 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form3_mid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form3 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\23962-ai %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form3 screem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blur form6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form3 blur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form6 bluured.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form6 bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOADING SCREEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form 6 bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form6 bg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form6 bluured1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form3 blur1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blur form61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form3 screem1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit button1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form3_mid1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form3 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\23962-ai %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form3 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design %283%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOADING SCREEN1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -22,6 +22,21 @@ Bill_manage
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Bill_manage.My.Resources.Resources._23962_ai">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources._23962_ai__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources._23962_ai__1_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Bill_manage.My.Resources.Resources._6276642">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -33,6 +48,26 @@ Bill_manage
 </summary>
 </member>
 <member name="P:Bill_manage.My.Resources.Resources._6276642_removebg_preview1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.abstarct">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.blur_form6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.blur_form61">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.bulb">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -52,6 +87,131 @@ Bill_manage
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Bill_manage.My.Resources.Resources.dp__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.dp__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.dp1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.ELECTRICITY_BILL_MANAGEMENT_SYSTEM">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.ELECTRICITY_BILL_MANAGEMENT_SYSTEM__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.exit_button">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.exit_button1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.form_6_bg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.form3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.form3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.form3__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.form3__1_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.form3_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.form3_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.form3_blur">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.form3_blur1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.form3_mid">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.form3_mid1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.form3_screem">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.form3_screem1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.form31">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.form6_bg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.form6_bg1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.form6_bluured">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.form6_bluured1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Bill_manage.My.Resources.Resources.image_removebg_preview">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -62,12 +222,42 @@ Bill_manage
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Bill_manage.My.Resources.Resources.LOADING_SCREEN">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.LOADING_SCREEN1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Bill_manage.My.Resources.Resources.login">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Bill_manage.My.Resources.Resources.login__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.login__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Bill_manage.My.Resources.Resources.login1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.login2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.mesh">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -102,7 +292,42 @@ Bill_manage
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Bill_manage.My.Resources.Resources.Untitled_design__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.Untitled_design__3_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.Untitled_design__3_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.Untitled_design__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.Untitled_design__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.Untitled_design__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Bill_manage.My.Resources.Resources.Untitled_design1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bill_manage.My.Resources.Resources.Untitled_design2">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

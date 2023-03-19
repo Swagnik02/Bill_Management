@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class LoadingScreen
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,36 +20,23 @@ Partial Class LoadingScreen
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.ProgressBar = New System.Windows.Forms.ProgressBar()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(LoadingScreen))
+        Me.ProgressBarCust = New System.Windows.Forms.ProgressBar()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
-        'Label1
+        'ProgressBarCust
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label1.Font = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(61, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(24, 251)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(411, 170)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "ELECTRICITY BILL " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "MANAGEMENT " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SYSTEM "
-        '
-        'ProgressBar
-        '
-        Me.ProgressBar.Cursor = System.Windows.Forms.Cursors.Default
-        Me.ProgressBar.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(61, Byte), Integer))
-        Me.ProgressBar.Location = New System.Drawing.Point(-3, 445)
-        Me.ProgressBar.Name = "ProgressBar"
-        Me.ProgressBar.Size = New System.Drawing.Size(810, 13)
-        Me.ProgressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous
-        Me.ProgressBar.TabIndex = 1
+        Me.ProgressBarCust.Cursor = System.Windows.Forms.Cursors.Default
+        Me.ProgressBarCust.ForeColor = System.Drawing.Color.Blue
+        Me.ProgressBarCust.Location = New System.Drawing.Point(-3, 445)
+        Me.ProgressBarCust.Name = "ProgressBarCust"
+        Me.ProgressBarCust.Size = New System.Drawing.Size(810, 13)
+        Me.ProgressBarCust.Style = System.Windows.Forms.ProgressBarStyle.Continuous
+        Me.ProgressBarCust.TabIndex = 1
         '
         'Timer1
         '
@@ -60,12 +47,12 @@ Partial Class LoadingScreen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.Bill_manage.My.Resources.Resources.MinFlat_Dark_Material_Design_Wallpaper_4K_by_DaKoder_on
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.ProgressBar)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.ProgressBarCust)
         Me.Cursor = System.Windows.Forms.Cursors.WaitCursor
+        Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "LoadingScreen"
         Me.ShowIcon = False
@@ -73,11 +60,8 @@ Partial Class LoadingScreen
         Me.Text = "Form2"
         Me.TopMost = True
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Label1 As Label
-    Friend WithEvents ProgressBar As ProgressBar
+    Friend WithEvents ProgressBarCust As ProgressBar
     Friend WithEvents Timer1 As Timer
 End Class

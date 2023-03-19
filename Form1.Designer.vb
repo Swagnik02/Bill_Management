@@ -44,8 +44,8 @@ Partial Class Login
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Comic Sans MS", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.Coral
-        Me.Label1.Location = New System.Drawing.Point(121, 232)
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveBorder
+        Me.Label1.Location = New System.Drawing.Point(108, 233)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(225, 41)
         Me.Label1.TabIndex = 1
@@ -56,7 +56,7 @@ Partial Class Login
         Me.btnLogin.BackColor = System.Drawing.Color.DimGray
         Me.btnLogin.Font = New System.Drawing.Font("Segoe UI", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogin.ForeColor = System.Drawing.Color.White
-        Me.btnLogin.Location = New System.Drawing.Point(79, 450)
+        Me.btnLogin.Location = New System.Drawing.Point(62, 479)
         Me.btnLogin.Name = "btnLogin"
         Me.btnLogin.Size = New System.Drawing.Size(323, 50)
         Me.btnLogin.TabIndex = 5
@@ -67,7 +67,7 @@ Partial Class Login
         '
         Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.btnExit.Font = New System.Drawing.Font("Segoe UI", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnExit.Location = New System.Drawing.Point(79, 506)
+        Me.btnExit.Location = New System.Drawing.Point(62, 535)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(323, 50)
         Me.btnExit.TabIndex = 6
@@ -77,8 +77,8 @@ Partial Class Login
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = Global.Bill_manage.My.Resources.Resources.dp
-        Me.PictureBox1.Location = New System.Drawing.Point(140, 28)
+        Me.PictureBox1.Image = Global.Bill_manage.My.Resources.Resources.dp__2_
+        Me.PictureBox1.Location = New System.Drawing.Point(123, 45)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(189, 175)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -87,7 +87,7 @@ Partial Class Login
         '
         'txtUsername
         '
-        Me.txtUsername.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(61, Byte), Integer))
+        Me.txtUsername.BackColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(127, Byte), Integer))
         Me.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtUsername.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtUsername.ForeColor = System.Drawing.Color.Black
@@ -109,28 +109,28 @@ Partial Class Login
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(61, Byte), Integer))
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(127, Byte), Integer))
         Me.Panel1.Controls.Add(Me.txtUsername)
         Me.Panel1.Controls.Add(Me.PictureBox3)
         Me.Panel1.ForeColor = System.Drawing.SystemColors.WindowFrame
-        Me.Panel1.Location = New System.Drawing.Point(79, 318)
+        Me.Panel1.Location = New System.Drawing.Point(62, 336)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(323, 46)
         Me.Panel1.TabIndex = 7
         '
         'Panel2
         '
-        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(61, Byte), Integer))
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(127, Byte), Integer))
         Me.Panel2.Controls.Add(Me.txtPassword)
         Me.Panel2.Controls.Add(Me.PictureBox2)
-        Me.Panel2.Location = New System.Drawing.Point(79, 370)
+        Me.Panel2.Location = New System.Drawing.Point(62, 388)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(323, 46)
         Me.Panel2.TabIndex = 8
         '
         'txtPassword
         '
-        Me.txtPassword.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(61, Byte), Integer))
+        Me.txtPassword.BackColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(127, Byte), Integer))
         Me.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtPassword.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPassword.ForeColor = System.Drawing.Color.Black
@@ -155,9 +155,9 @@ Partial Class Login
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.BackgroundImage = Global.Bill_manage.My.Resources.Resources.MinFlat_Dark_Material_Design_Wallpaper_4K_by_DaKoder_on
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(489, 648)
+        Me.BackgroundImage = Global.Bill_manage.My.Resources.Resources.login__2_
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ClientSize = New System.Drawing.Size(448, 648)
         Me.ControlBox = False
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
@@ -166,6 +166,7 @@ Partial Class Login
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MaximizeBox = False
         Me.Name = "Login"
@@ -196,7 +197,7 @@ Partial Class Login
     Private Sub txtUsername_GotFocus(sender As Object, e As EventArgs) Handles txtUsername.GotFocus
         If txtUsername.Text = "Username" Then
             txtUsername.Text = ""
-            txtUsername.ForeColor = SystemColors.WindowFrame
+            txtUsername.ForeColor = Color.White
         End If
     End Sub
     Private Sub txtUsername_LostFocus(sender As Object, e As EventArgs) Handles txtUsername.LostFocus
@@ -210,7 +211,7 @@ Partial Class Login
         If txtPassword.Text = "Password" Then
             txtPassword.Text = ""
             txtPassword.PasswordChar = "*"
-            txtPassword.ForeColor = SystemColors.WindowFrame
+            txtPassword.ForeColor = Color.White
         End If
     End Sub
 
@@ -243,9 +244,5 @@ Partial Class Login
         Else
             MsgBox("Wrong: 'User ID & Password' ")
         End If
-    End Sub
-
-    Private Sub txtUsername_TextChanged(sender As Object, e As EventArgs) Handles txtUsername.TextChanged
-
     End Sub
 End Class

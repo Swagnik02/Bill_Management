@@ -34,9 +34,9 @@ Partial Class HomePage
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.PanelDesktop = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.PanelTitleBar = New System.Windows.Forms.Panel()
+        Me.PanelDesktop = New System.Windows.Forms.Panel()
         Me.PanelMenu.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -50,7 +50,7 @@ Partial Class HomePage
         '
         'Label1
         '
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label1.Font = New System.Drawing.Font("Comic Sans MS", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -62,8 +62,8 @@ Partial Class HomePage
         '
         'PanelMenu
         '
-        Me.PanelMenu.BackColor = System.Drawing.Color.DimGray
-        Me.PanelMenu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PanelMenu.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.PanelMenu.BackgroundImage = Global.Bill_manage.My.Resources.Resources.form3__1_
         Me.PanelMenu.Controls.Add(Me.Panel1)
         Me.PanelMenu.Controls.Add(Me.IconButton1)
         Me.PanelMenu.Controls.Add(Me.IconButton2)
@@ -87,10 +87,11 @@ Partial Class HomePage
         '
         'IconButton1
         '
+        Me.IconButton1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.IconButton1.FlatAppearance.BorderSize = 0
         Me.IconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.IconButton1.Font = New System.Drawing.Font("Segoe UI Semibold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.IconButton1.ForeColor = System.Drawing.Color.LightGray
+        Me.IconButton1.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.IconButton1.IconChar = FontAwesome.Sharp.IconChar.None
         Me.IconButton1.IconColor = System.Drawing.Color.Black
         Me.IconButton1.IconFont = FontAwesome.Sharp.IconFont.[Auto]
@@ -100,14 +101,14 @@ Partial Class HomePage
         Me.IconButton1.TabIndex = 2
         Me.IconButton1.Text = "Bill Generate"
         Me.IconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton1.UseVisualStyleBackColor = True
+        Me.IconButton1.UseVisualStyleBackColor = False
         '
         'IconButton2
         '
         Me.IconButton2.FlatAppearance.BorderSize = 0
         Me.IconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.IconButton2.Font = New System.Drawing.Font("Segoe UI Semibold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.IconButton2.ForeColor = System.Drawing.Color.LightGray
+        Me.IconButton2.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.IconButton2.IconChar = FontAwesome.Sharp.IconChar.None
         Me.IconButton2.IconColor = System.Drawing.Color.Black
         Me.IconButton2.IconFont = FontAwesome.Sharp.IconFont.[Auto]
@@ -124,7 +125,7 @@ Partial Class HomePage
         Me.IconButton3.FlatAppearance.BorderSize = 0
         Me.IconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.IconButton3.Font = New System.Drawing.Font("Segoe UI Semibold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.IconButton3.ForeColor = System.Drawing.Color.LightGray
+        Me.IconButton3.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.IconButton3.IconChar = FontAwesome.Sharp.IconChar.None
         Me.IconButton3.IconColor = System.Drawing.Color.Black
         Me.IconButton3.IconFont = FontAwesome.Sharp.IconFont.[Auto]
@@ -132,7 +133,7 @@ Partial Class HomePage
         Me.IconButton3.Name = "IconButton3"
         Me.IconButton3.Size = New System.Drawing.Size(300, 50)
         Me.IconButton3.TabIndex = 4
-        Me.IconButton3.Text = "User Details"
+        Me.IconButton3.Text = "Consumer Details"
         Me.IconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.IconButton3.UseVisualStyleBackColor = True
         '
@@ -141,7 +142,7 @@ Partial Class HomePage
         Me.IconButton4.FlatAppearance.BorderSize = 0
         Me.IconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.IconButton4.Font = New System.Drawing.Font("Segoe UI Semibold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.IconButton4.ForeColor = System.Drawing.Color.LightGray
+        Me.IconButton4.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.IconButton4.IconChar = FontAwesome.Sharp.IconChar.None
         Me.IconButton4.IconColor = System.Drawing.Color.Black
         Me.IconButton4.IconFont = FontAwesome.Sharp.IconFont.[Auto]
@@ -157,13 +158,13 @@ Partial Class HomePage
         '
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Button1.BackgroundImage = Global.Bill_manage.My.Resources.Resources.Untitled_design
+        Me.Button1.BackgroundImage = Global.Bill_manage.My.Resources.Resources.exit_button
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button1.FlatAppearance.BorderSize = 0
         Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(63, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(63, Byte), Integer))
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(654, 4)
+        Me.Button1.Location = New System.Drawing.Point(652, 2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(40, 40)
         Me.Button1.TabIndex = 0
@@ -172,9 +173,11 @@ Partial Class HomePage
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(61, Byte), Integer))
+        Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(99, Byte), Integer))
         Me.Label2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label2.Font = New System.Drawing.Font("Consolas", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Label2.Location = New System.Drawing.Point(0, 0)
         Me.Label2.Name = "Label2"
@@ -185,10 +188,11 @@ Partial Class HomePage
         '
         'Label3
         '
-        Me.Label3.BackColor = System.Drawing.SystemColors.ScrollBar
+        Me.Label3.BackColor = System.Drawing.SystemColors.HotTrack
         Me.Label3.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.Label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label3.Font = New System.Drawing.Font("Comic Sans MS", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption
         Me.Label3.Location = New System.Drawing.Point(0, 56)
         Me.Label3.Name = "Label3"
         Me.Label3.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -197,27 +201,21 @@ Partial Class HomePage
         Me.Label3.Text = "month"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'PanelDesktop
-        '
-        Me.PanelDesktop.BackColor = System.Drawing.Color.Transparent
-        Me.PanelDesktop.Location = New System.Drawing.Point(300, 82)
-        Me.PanelDesktop.Name = "PanelDesktop"
-        Me.PanelDesktop.Size = New System.Drawing.Size(697, 498)
-        Me.PanelDesktop.TabIndex = 7
-        '
         'Panel3
         '
         Me.Panel3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel3.BackColor = System.Drawing.Color.Transparent
         Me.Panel3.Controls.Add(Me.Label2)
         Me.Panel3.Controls.Add(Me.Label3)
-        Me.Panel3.Location = New System.Drawing.Point(0, 1)
+        Me.Panel3.Location = New System.Drawing.Point(-2, 1)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(76, 81)
         Me.Panel3.TabIndex = 4
         '
         'PanelTitleBar
         '
-        Me.PanelTitleBar.BackColor = System.Drawing.SystemColors.WindowFrame
+        Me.PanelTitleBar.BackColor = System.Drawing.Color.Transparent
+        Me.PanelTitleBar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.PanelTitleBar.Controls.Add(Me.Button1)
         Me.PanelTitleBar.Controls.Add(Me.Panel3)
         Me.PanelTitleBar.Dock = System.Windows.Forms.DockStyle.Top
@@ -226,18 +224,29 @@ Partial Class HomePage
         Me.PanelTitleBar.Size = New System.Drawing.Size(697, 82)
         Me.PanelTitleBar.TabIndex = 8
         '
+        'PanelDesktop
+        '
+        Me.PanelDesktop.BackColor = System.Drawing.Color.Transparent
+        Me.PanelDesktop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PanelDesktop.Location = New System.Drawing.Point(299, 83)
+        Me.PanelDesktop.Name = "PanelDesktop"
+        Me.PanelDesktop.Size = New System.Drawing.Size(697, 499)
+        Me.PanelDesktop.TabIndex = 7
+        '
         'HomePage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
-        Me.BackgroundImage = Global.Bill_manage.My.Resources.Resources.MinFlat_Dark_Material_Design_Wallpaper_4K_by_DaKoder_on___Edited__1_
+        Me.BackgroundImage = Global.Bill_manage.My.Resources.Resources.form3_screem
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(997, 582)
         Me.ControlBox = False
         Me.Controls.Add(Me.PanelTitleBar)
-        Me.Controls.Add(Me.PanelDesktop)
         Me.Controls.Add(Me.PanelMenu)
+        Me.Controls.Add(Me.PanelDesktop)
         Me.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "HomePage"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

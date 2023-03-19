@@ -6,7 +6,6 @@ Public Class HomePage
     Private currentBtn As IconButton
     Private leftBorderBtn As Panel
     Private currentChildForm As Form
-
     'Constructor'
     Public Sub New()
         ' This call is required by the designer.'
@@ -17,20 +16,26 @@ Public Class HomePage
 
     End Sub
     'Methods'
-    Public Sub ActivateButton(senderBtn As Object, customColor As Color)
+    Public Sub ActivateButton(senderBtn As Object)
         If senderBtn IsNot Nothing Then
             DisableButton()
-            'current Form icon'
+            'Button'
+            currentBtn = CType(senderBtn, IconButton)
+            '            currentBtn.BackColor = SystemColors.HotTrack
+            '            currentBtn.ForeColor = Color.Ivory
+            currentBtn.FlatAppearance.BorderSize = 3
+            currentBtn.FlatAppearance.BorderColor = Color.SteelBlue
+            currentBtn.TextAlign = ContentAlignment.MiddleCenter
         End If
     End Sub
+
     Public Sub DisableButton()
         If currentBtn IsNot Nothing Then
-            currentBtn.BackColor = Color.FromArgb(31, 30, 68)
-            currentBtn.ForeColor = Color.Gainsboro
-            currentBtn.IconColor = Color.Gainsboro
+            '            currentBtn.BackColor = Color.FromArgb(0, 0, 64)
+            '            currentBtn.ForeColor = SystemColors.ActiveCaption
+            currentBtn.FlatAppearance.BorderSize = 0
             currentBtn.TextAlign = ContentAlignment.MiddleLeft
-            currentBtn.ImageAlign = ContentAlignment.MiddleLeft
-            currentBtn.TextImageRelation = TextImageRelation.ImageBeforeText
+
         End If
     End Sub
     Public Sub OpenChildForm(childForm As Form)
@@ -47,43 +52,32 @@ Public Class HomePage
         PanelDesktop.Tag = childForm
         childForm.BringToFront()
         childForm.Show()
-        'lblFormTitle.Text = childForm.Text
     End Sub
     Private Sub Reset()
-        '        DisableButton()
-        '        leftBorderBtn.Visible = False
-        '        IconCurrentForm.IconChar = IconChar.Home
-        '        IconCurrentForm.IconColor = Color.MediumPurple
-        '        lblFormTitle.Text = "Home"
+        DisableButton()
     End Sub
-    'Events'
-    'Reset'
-
     'Menu buttons Cliks'
     Private Sub IconButton1_Click(sender As Object, e As EventArgs) Handles IconButton1.Click
-        ActivateButton(sender, RGBColors.color1)
+        ActivateButton(sender)
         OpenChildForm(New Form4)
     End Sub
     Private Sub IconButton2_Click(sender As Object, e As EventArgs) Handles IconButton2.Click
-        ActivateButton(sender, RGBColors.color2)
+        ActivateButton(sender)
         OpenChildForm(New Form5)
     End Sub
     Private Sub IconButton3_Click(sender As Object, e As EventArgs) Handles IconButton3.Click
-        ActivateButton(sender, RGBColors.color3)
+        ActivateButton(sender)
         OpenChildForm(New Form6)
     End Sub
     Private Sub IconButton4_Click(sender As Object, e As EventArgs) Handles IconButton4.Click
-        ActivateButton(sender, RGBColors.color4)
+        ActivateButton(sender)
         OpenChildForm(New Form7)
     End Sub
     Private Sub IconButton5_Click(sender As Object, e As EventArgs)
-        ActivateButton(sender, RGBColors.color5)
+        ActivateButton(sender)
         OpenChildForm(New Form8)
     End Sub
-    Private Sub IconButton6_Click(sender As Object, e As EventArgs)
-        '       ActivateButton(sender, RGBColors.color6)
-        '        OpenChildForm(New Form9)
-    End Sub
+
     'Drag Form'
     <DllImport("user32.DLL", EntryPoint:="ReleaseCapture")>
     Private Shared Sub ReleaseCapture()
