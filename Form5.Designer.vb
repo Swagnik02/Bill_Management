@@ -32,11 +32,12 @@ Partial Class form5
         Me.Label3 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.MaterialButton1 = New FontAwesome.Sharp.Material.MaterialButton()
+        Me.Button2 = New FontAwesome.Sharp.IconButton()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -60,7 +61,7 @@ Partial Class form5
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox1)
         Me.FlowLayoutPanel1.Location = New System.Drawing.Point(114, 57)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(282, 46)
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(282, 61)
         Me.FlowLayoutPanel1.TabIndex = 10
         '
         'Label6
@@ -78,9 +79,11 @@ Partial Class form5
         '
         Me.TextBox1.BackColor = System.Drawing.SystemColors.InactiveCaption
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox1.Font = New System.Drawing.Font("Comic Sans MS", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(162, 3)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 26)
+        Me.TextBox1.ReadOnly = True
+        Me.TextBox1.Size = New System.Drawing.Size(100, 33)
         Me.TextBox1.TabIndex = 12
         '
         'Label2
@@ -141,6 +144,7 @@ Partial Class form5
         Me.TextBox2.ReadOnly = True
         Me.TextBox2.Size = New System.Drawing.Size(201, 26)
         Me.TextBox2.TabIndex = 7
+        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel2
         '
@@ -156,16 +160,6 @@ Partial Class form5
         Me.Panel2.Size = New System.Drawing.Size(346, 116)
         Me.Panel2.TabIndex = 10
         '
-        'TextBox4
-        '
-        Me.TextBox4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox4.Font = New System.Drawing.Font("Comic Sans MS", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(64, 24)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(201, 26)
-        Me.TextBox4.TabIndex = 9
-        '
         'Label4
         '
         Me.Label4.AutoSize = True
@@ -177,17 +171,6 @@ Partial Class form5
         Me.Label4.TabIndex = 8
         Me.Label4.Text = "Email ID"
         '
-        'TextBox5
-        '
-        Me.TextBox5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox5.Font = New System.Drawing.Font("Comic Sans MS", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(64, 76)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(201, 26)
-        Me.TextBox5.TabIndex = 7
-        Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
         'Label5
         '
         Me.Label5.AutoSize = True
@@ -198,6 +181,30 @@ Partial Class form5
         Me.Label5.Size = New System.Drawing.Size(112, 18)
         Me.Label5.TabIndex = 6
         Me.Label5.Text = "Recharge Amount"
+        '
+        'TextBox4
+        '
+        Me.TextBox4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
+        Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox4.Font = New System.Drawing.Font("Comic Sans MS", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox4.Location = New System.Drawing.Point(64, 24)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.ReadOnly = True
+        Me.TextBox4.Size = New System.Drawing.Size(201, 26)
+        Me.TextBox4.TabIndex = 9
+        Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox5
+        '
+        Me.TextBox5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
+        Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox5.Font = New System.Drawing.Font("Comic Sans MS", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox5.Location = New System.Drawing.Point(64, 79)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.ReadOnly = True
+        Me.TextBox5.Size = New System.Drawing.Size(201, 26)
+        Me.TextBox5.TabIndex = 7
+        Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'MaterialButton1
         '
@@ -214,6 +221,22 @@ Partial Class form5
         Me.MaterialButton1.Text = "MAKE PAYMENT"
         Me.MaterialButton1.UseVisualStyleBackColor = False
         '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.IconChar = FontAwesome.Sharp.IconChar.Rotate
+        Me.Button2.IconColor = System.Drawing.Color.Black
+        Me.Button2.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.Button2.Location = New System.Drawing.Point(388, 54)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Rotation = 90.0R
+        Me.Button2.Size = New System.Drawing.Size(39, 39)
+        Me.Button2.TabIndex = 13
+        Me.Button2.UseVisualStyleBackColor = False
+        Me.Button2.Visible = False
+        '
         'form5
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
@@ -223,6 +246,7 @@ Partial Class form5
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(499, 410)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.MaterialButton1)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Label1)
@@ -260,4 +284,5 @@ Partial Class form5
     Friend WithEvents MaterialButton1 As FontAwesome.Sharp.Material.MaterialButton
     Friend WithEvents Label6 As Label
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Button2 As FontAwesome.Sharp.IconButton
 End Class

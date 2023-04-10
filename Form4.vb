@@ -4,9 +4,9 @@ Imports System.Net.Mime.MediaTypeNames
 Imports FontAwesome.Sharp
 
 Public Class Form4
-    Public c_ID
-    Public month
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+    Public Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
         HomePage.ActivateButton(HomePage.IconButton2)
         HomePage.OpenChildForm(New form5)
     End Sub
@@ -16,10 +16,13 @@ Public Class Form4
 
     Public Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         HomePage.command.Connection = HomePage.connection
-        HomePage.command.CommandText = "SELECT * FROM Bill_Details WHERE Consumer_ID = " & "'" & TextBox1.Text & "' AND Month = " & "'" & ComboBox1.Text & "'"
+        HomePage.command.CommandText = "SELECT * FROM Bill_Details WHERE C_ID = " & "'" & TextBox1.Text & "' AND Month = " & "'" & ComboBox1.Text & "'"
 
-        c_ID = TextBox1.Text
-        month = ComboBox1.Text
+        HomePage.c_ID = TextBox1.Text
+        HomePage.mnth = ComboBox1.Text
+
+
+        'MsgBox("CON ID = " & HomePage.c_ID)
 
         Dim rdr As SQLiteDataReader = HomePage.command.ExecuteReader
         Using rdr

@@ -1,8 +1,12 @@
 ﻿Imports System.Data.SQLite
 Imports System.Runtime.InteropServices
+Imports System.Windows.Controls
 Imports System.Xml
 Imports FontAwesome.Sharp
 Public Class HomePage
+    Public c_ID As String
+    Public mnth As String
+
     'selecting the database
     Public dbCommand As String = ""
     Public bindingSrc As BindingSource
@@ -13,7 +17,6 @@ Public Class HomePage
 
     Public connection As New SQLiteConnection(connString)
     Public command As New SQLiteCommand("", connection)
-
 
     'Fields'
     Private currentBtn As IconButton
@@ -67,7 +70,7 @@ Public Class HomePage
     Private Sub Reset()
         DisableButton()
     End Sub
-    'Menu buttons Cliks'
+    'Menu buttons Cliks
     Private Sub IconButton1_Click(sender As Object, e As EventArgs) Handles IconButton1.Click
         ActivateButton(sender)
         OpenChildForm(New Form4)
@@ -121,6 +124,10 @@ Public Class HomePage
     End Sub
 
     Private Sub PanelTitleBar_Paint(sender As Object, e As PaintEventArgs) Handles PanelTitleBar.Paint
+
+    End Sub
+
+    Private Sub PanelDesktop_Paint(sender As Object, e As PaintEventArgs) Handles PanelDesktop.Paint
 
     End Sub
 End Class
