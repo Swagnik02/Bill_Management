@@ -13,11 +13,6 @@ Public Class LoadingScreen
     Private Sub ProgressBarCust_Click(sender As Object, e As EventArgs) Handles ProgressBarCust.Click
         ProgressBarCust.ForeColor = Color.Black
     End Sub
-
-    Private Sub LoadingScreen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
     Private Sub Label1_Click(sender As Object, e As EventArgs)
 
     End Sub

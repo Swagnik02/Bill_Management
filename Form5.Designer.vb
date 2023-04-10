@@ -24,6 +24,8 @@ Partial Class form5
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
@@ -35,8 +37,6 @@ Partial Class form5
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.MaterialButton1 = New FontAwesome.Sharp.Material.MaterialButton()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -57,11 +57,31 @@ Partial Class form5
         '
         Me.FlowLayoutPanel1.BackColor = System.Drawing.Color.Transparent
         Me.FlowLayoutPanel1.Controls.Add(Me.Label6)
-        Me.FlowLayoutPanel1.Controls.Add(Me.Label7)
+        Me.FlowLayoutPanel1.Controls.Add(Me.TextBox1)
         Me.FlowLayoutPanel1.Location = New System.Drawing.Point(114, 57)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
         Me.FlowLayoutPanel1.Size = New System.Drawing.Size(282, 46)
         Me.FlowLayoutPanel1.TabIndex = 10
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.SystemColors.HotTrack
+        Me.Label6.Font = New System.Drawing.Font("Comic Sans MS", 13.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(3, 0)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(153, 30)
+        Me.Label6.TabIndex = 12
+        Me.Label6.Text = "Consumer ID:"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox1.Location = New System.Drawing.Point(162, 3)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 26)
+        Me.TextBox1.TabIndex = 12
         '
         'Label2
         '
@@ -125,10 +145,10 @@ Partial Class form5
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.Transparent
-        Me.Panel2.Controls.Add(Me.TextBox4)
         Me.Panel2.Controls.Add(Me.Label4)
-        Me.Panel2.Controls.Add(Me.TextBox5)
         Me.Panel2.Controls.Add(Me.Label5)
+        Me.Panel2.Controls.Add(Me.TextBox4)
+        Me.Panel2.Controls.Add(Me.TextBox5)
         Me.Panel2.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel2.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Panel2.Location = New System.Drawing.Point(75, 204)
@@ -141,7 +161,7 @@ Partial Class form5
         Me.TextBox4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
         Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox4.Font = New System.Drawing.Font("Comic Sans MS", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(64, 76)
+        Me.TextBox4.Location = New System.Drawing.Point(64, 24)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(201, 26)
         Me.TextBox4.TabIndex = 9
@@ -162,7 +182,7 @@ Partial Class form5
         Me.TextBox5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
         Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox5.Font = New System.Drawing.Font("Comic Sans MS", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(64, 22)
+        Me.TextBox5.Location = New System.Drawing.Point(64, 76)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(201, 26)
         Me.TextBox5.TabIndex = 7
@@ -193,25 +213,6 @@ Partial Class form5
         Me.MaterialButton1.TabIndex = 11
         Me.MaterialButton1.Text = "MAKE PAYMENT"
         Me.MaterialButton1.UseVisualStyleBackColor = False
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.SystemColors.HotTrack
-        Me.Label6.Font = New System.Drawing.Font("Comic Sans MS", 13.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(3, 0)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(153, 30)
-        Me.Label6.TabIndex = 12
-        Me.Label6.Text = "Consumer ID:"
-        '
-        'Label7
-        '
-        Me.Label7.BackColor = System.Drawing.SystemColors.InactiveCaption
-        Me.Label7.Location = New System.Drawing.Point(162, 0)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(95, 30)
-        Me.Label7.TabIndex = 0
         '
         'form5
         '
@@ -258,5 +259,5 @@ Partial Class form5
     Friend WithEvents Label5 As Label
     Friend WithEvents MaterialButton1 As FontAwesome.Sharp.Material.MaterialButton
     Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
+    Friend WithEvents TextBox1 As TextBox
 End Class

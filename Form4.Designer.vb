@@ -69,15 +69,15 @@ Partial Class Form4
         Me.conID.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption
         Me.conID.Location = New System.Drawing.Point(3, 0)
         Me.conID.Name = "conID"
-        Me.conID.Size = New System.Drawing.Size(125, 30)
+        Me.conID.Size = New System.Drawing.Size(111, 30)
         Me.conID.TabIndex = 1
-        Me.conID.Text = "Connection"
+        Me.conID.Text = "Consumer"
         '
         'TextBox1
         '
         Me.TextBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
         Me.TextBox1.Font = New System.Drawing.Font("Ink Free", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(134, 3)
+        Me.TextBox1.Location = New System.Drawing.Point(120, 3)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(92, 32)
         Me.TextBox1.TabIndex = 2
@@ -98,12 +98,12 @@ Partial Class Form4
         'TextBox3
         '
         Me.TextBox3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.TextBox3.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox3.Location = New System.Drawing.Point(124, 14)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.ReadOnly = True
         Me.TextBox3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TextBox3.Size = New System.Drawing.Size(92, 27)
+        Me.TextBox3.Size = New System.Drawing.Size(92, 30)
         Me.TextBox3.TabIndex = 6
         '
         'Label2
@@ -152,12 +152,12 @@ Partial Class Form4
         'TextBox8
         '
         Me.TextBox8.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.TextBox8.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox8.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox8.Location = New System.Drawing.Point(391, 148)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.ReadOnly = True
         Me.TextBox8.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TextBox8.Size = New System.Drawing.Size(92, 27)
+        Me.TextBox8.Size = New System.Drawing.Size(92, 30)
         Me.TextBox8.TabIndex = 6
         '
         'Label5
@@ -175,23 +175,23 @@ Partial Class Form4
         'TextBox6
         '
         Me.TextBox6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.TextBox6.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox6.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox6.Location = New System.Drawing.Point(391, 78)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.ReadOnly = True
         Me.TextBox6.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TextBox6.Size = New System.Drawing.Size(92, 27)
+        Me.TextBox6.Size = New System.Drawing.Size(92, 30)
         Me.TextBox6.TabIndex = 6
         '
         'TextBox7
         '
         Me.TextBox7.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.TextBox7.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox7.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox7.Location = New System.Drawing.Point(124, 145)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.ReadOnly = True
         Me.TextBox7.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TextBox7.Size = New System.Drawing.Size(92, 27)
+        Me.TextBox7.Size = New System.Drawing.Size(92, 30)
         Me.TextBox7.TabIndex = 6
         '
         'Label3
@@ -208,12 +208,12 @@ Partial Class Form4
         'TextBox5
         '
         Me.TextBox5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.TextBox5.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox5.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox5.Location = New System.Drawing.Point(124, 75)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.ReadOnly = True
         Me.TextBox5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TextBox5.Size = New System.Drawing.Size(92, 27)
+        Me.TextBox5.Size = New System.Drawing.Size(92, 30)
         Me.TextBox5.TabIndex = 6
         '
         'Label6
@@ -231,12 +231,12 @@ Partial Class Form4
         'TextBox4
         '
         Me.TextBox4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.TextBox4.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox4.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox4.Location = New System.Drawing.Point(391, 17)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.ReadOnly = True
         Me.TextBox4.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TextBox4.Size = New System.Drawing.Size(92, 27)
+        Me.TextBox4.Size = New System.Drawing.Size(92, 30)
         Me.TextBox4.TabIndex = 6
         '
         'Label4
@@ -256,7 +256,7 @@ Partial Class Form4
         Me.ComboBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
         Me.ComboBox1.Font = New System.Drawing.Font("Ink Free", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"January ", "February", "March ", "April ", "May ", "June ", "July ", "August ", "September ", "October ", "November ", "December "})
+        Me.ComboBox1.Items.AddRange(New Object() {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"})
         Me.ComboBox1.Location = New System.Drawing.Point(94, 3)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(121, 33)

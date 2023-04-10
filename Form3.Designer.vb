@@ -31,6 +31,9 @@ Partial Class HomePage
         Me.IconButton2 = New FontAwesome.Sharp.IconButton()
         Me.IconButton3 = New FontAwesome.Sharp.IconButton()
         Me.IconButton4 = New FontAwesome.Sharp.IconButton()
+        Me.IconButton5 = New FontAwesome.Sharp.IconButton()
+        Me.IconButton6 = New FontAwesome.Sharp.IconButton()
+        Me.IconButton7 = New FontAwesome.Sharp.IconButton()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -69,6 +72,9 @@ Partial Class HomePage
         Me.PanelMenu.Controls.Add(Me.IconButton2)
         Me.PanelMenu.Controls.Add(Me.IconButton3)
         Me.PanelMenu.Controls.Add(Me.IconButton4)
+        Me.PanelMenu.Controls.Add(Me.IconButton5)
+        Me.PanelMenu.Controls.Add(Me.IconButton6)
+        Me.PanelMenu.Controls.Add(Me.IconButton7)
         Me.PanelMenu.Dock = System.Windows.Forms.DockStyle.Left
         Me.PanelMenu.Location = New System.Drawing.Point(0, 0)
         Me.PanelMenu.Name = "PanelMenu"
@@ -153,6 +159,57 @@ Partial Class HomePage
         Me.IconButton4.Text = "Admin"
         Me.IconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.IconButton4.UseVisualStyleBackColor = True
+        '
+        'IconButton5
+        '
+        Me.IconButton5.FlatAppearance.BorderSize = 0
+        Me.IconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.IconButton5.Font = New System.Drawing.Font("Segoe UI Semibold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.IconButton5.ForeColor = System.Drawing.SystemColors.ActiveCaption
+        Me.IconButton5.IconChar = FontAwesome.Sharp.IconChar.None
+        Me.IconButton5.IconColor = System.Drawing.Color.Black
+        Me.IconButton5.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.IconButton5.Location = New System.Drawing.Point(3, 282)
+        Me.IconButton5.Name = "IconButton5"
+        Me.IconButton5.Size = New System.Drawing.Size(300, 50)
+        Me.IconButton5.TabIndex = 5
+        Me.IconButton5.Text = "CHECK CONNECTION"
+        Me.IconButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton5.UseVisualStyleBackColor = True
+        '
+        'IconButton6
+        '
+        Me.IconButton6.FlatAppearance.BorderSize = 0
+        Me.IconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.IconButton6.Font = New System.Drawing.Font("Segoe UI Semibold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.IconButton6.ForeColor = System.Drawing.SystemColors.ActiveCaption
+        Me.IconButton6.IconChar = FontAwesome.Sharp.IconChar.None
+        Me.IconButton6.IconColor = System.Drawing.Color.Black
+        Me.IconButton6.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.IconButton6.Location = New System.Drawing.Point(3, 338)
+        Me.IconButton6.Name = "IconButton6"
+        Me.IconButton6.Size = New System.Drawing.Size(146, 50)
+        Me.IconButton6.TabIndex = 5
+        Me.IconButton6.Text = "ON"
+        Me.IconButton6.UseVisualStyleBackColor = True
+        Me.IconButton6.Visible = False
+        '
+        'IconButton7
+        '
+        Me.IconButton7.FlatAppearance.BorderSize = 0
+        Me.IconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.IconButton7.Font = New System.Drawing.Font("Segoe UI Semibold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.IconButton7.ForeColor = System.Drawing.SystemColors.ActiveCaption
+        Me.IconButton7.IconChar = FontAwesome.Sharp.IconChar.None
+        Me.IconButton7.IconColor = System.Drawing.Color.Black
+        Me.IconButton7.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.IconButton7.Location = New System.Drawing.Point(155, 338)
+        Me.IconButton7.Name = "IconButton7"
+        Me.IconButton7.Size = New System.Drawing.Size(138, 50)
+        Me.IconButton7.TabIndex = 5
+        Me.IconButton7.Text = "OFF"
+        Me.IconButton7.UseVisualStyleBackColor = True
+        Me.IconButton7.Visible = False
         '
         'Button1
         '
@@ -273,4 +330,7 @@ Partial Class HomePage
     Friend WithEvents Panel3 As Panel
     Friend WithEvents PanelTitleBar As Panel
     Friend WithEvents PanelDesktop As Panel
+    Friend WithEvents IconButton5 As FontAwesome.Sharp.IconButton
+    Friend WithEvents IconButton6 As FontAwesome.Sharp.IconButton
+    Friend WithEvents IconButton7 As FontAwesome.Sharp.IconButton
 End Class
