@@ -25,7 +25,6 @@ Partial Class Form4
         Me.Button1 = New System.Windows.Forms.Button()
         Me.conID = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -39,13 +38,10 @@ Partial Class Form4
         Me.Label6 = New System.Windows.Forms.Label()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.FlowLayoutPanel1.SuspendLayout()
-        Me.FlowLayoutPanel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button1
@@ -82,18 +78,6 @@ Partial Class Form4
         Me.TextBox1.Size = New System.Drawing.Size(92, 32)
         Me.TextBox1.TabIndex = 2
         Me.TextBox1.Text = "ID"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.SystemColors.HotTrack
-        Me.Label1.Font = New System.Drawing.Font("Comic Sans MS", 13.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.Label1.Location = New System.Drawing.Point(3, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(85, 30)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Month "
         '
         'TextBox3
         '
@@ -251,36 +235,15 @@ Partial Class Form4
         Me.Label4.Text = "Energy" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Charge"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'ComboBox1
-        '
-        Me.ComboBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.ComboBox1.Font = New System.Drawing.Font("Ink Free", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"})
-        Me.ComboBox1.Location = New System.Drawing.Point(94, 3)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 33)
-        Me.ComboBox1.TabIndex = 8
-        '
         'FlowLayoutPanel1
         '
         Me.FlowLayoutPanel1.BackColor = System.Drawing.Color.Transparent
         Me.FlowLayoutPanel1.Controls.Add(Me.conID)
         Me.FlowLayoutPanel1.Controls.Add(Me.TextBox1)
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(6, 43)
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(159, 43)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
         Me.FlowLayoutPanel1.Size = New System.Drawing.Size(272, 32)
         Me.FlowLayoutPanel1.TabIndex = 9
-        '
-        'FlowLayoutPanel2
-        '
-        Me.FlowLayoutPanel2.BackColor = System.Drawing.Color.Transparent
-        Me.FlowLayoutPanel2.Controls.Add(Me.Label1)
-        Me.FlowLayoutPanel2.Controls.Add(Me.ComboBox1)
-        Me.FlowLayoutPanel2.Location = New System.Drawing.Point(284, 43)
-        Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
-        Me.FlowLayoutPanel2.Size = New System.Drawing.Size(266, 32)
-        Me.FlowLayoutPanel2.TabIndex = 10
         '
         'Button2
         '
@@ -303,7 +266,6 @@ Partial Class Form4
         Me.BackgroundImage = Global.Bill_manage.My.Resources.Resources.form6_bg
         Me.ClientSize = New System.Drawing.Size(608, 410)
         Me.ControlBox = False
-        Me.Controls.Add(Me.FlowLayoutPanel2)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -318,8 +280,6 @@ Partial Class Form4
         Me.Panel1.PerformLayout()
         Me.FlowLayoutPanel1.ResumeLayout(False)
         Me.FlowLayoutPanel1.PerformLayout()
-        Me.FlowLayoutPanel2.ResumeLayout(False)
-        Me.FlowLayoutPanel2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -327,7 +287,6 @@ Partial Class Form4
     Friend WithEvents Button1 As Button
     Friend WithEvents conID As Label
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label1 As Label
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Panel1 As Panel
@@ -341,8 +300,6 @@ Partial Class Form4
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
-    Friend WithEvents FlowLayoutPanel2 As FlowLayoutPanel
     Friend WithEvents Button2 As Button
 End Class

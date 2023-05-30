@@ -5,7 +5,6 @@ Imports System.Xml
 Imports FontAwesome.Sharp
 Public Class HomePage
     Public c_ID As String
-    Public mnth As String
 
     'selecting the database
     Public dbCommand As String = ""

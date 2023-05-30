@@ -235,7 +235,6 @@ Partial Class form5
         Me.Button2.Size = New System.Drawing.Size(39, 39)
         Me.Button2.TabIndex = 13
         Me.Button2.UseVisualStyleBackColor = False
-        Me.Button2.Visible = False
         '
         'form5
         '

@@ -30,7 +30,7 @@ Public Class form5
 
         'MsgBox("Select Consumer_ID,Name,Meter_No,Total,Email_ID From Bill_Details, Connection_Details, Consumer_Details Where Consumer_ID =" & "'" & TextBox1.Text & "' AND Month = " & "'" & HomePage.mnth & "'")
 
-        HomePage.command.CommandText = "Select Consumer_ID,Name,Meter_No,Total,Email_ID From Bill_Details, Connection_Details, Consumer_Details Where Consumer_ID =" & "'" & TextBox1.Text & "' AND Month = " & "'" & HomePage.mnth & "'"
+        HomePage.command.CommandText = "Select Consumer_ID,Name,Meter_No,Total,Email_ID From Bill_Details, Connection_Details, Consumer_Details Where Consumer_ID =" & "'" & TextBox1.Text & "'"
 
         Dim rdr As SQLiteDataReader = HomePage.command.ExecuteReader
         Using rdr
@@ -45,4 +45,7 @@ Public Class form5
         'MsgBox("CON ID = " & HomePage.mnth)
     End Sub
 
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+
+    End Sub
 End Class
